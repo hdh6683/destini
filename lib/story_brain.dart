@@ -8,32 +8,32 @@ class StoryBrain {
   List<Story> _storyData = [
     Story(
         storyTitle:
-            'Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: "Need a ride, boy?".',
-        choice1: 'I\'ll hop in. Thanks for the help!',
-        choice2: 'Better ask him if he\'s a murderer first.'),
+            '휴대폰 수신도 되지 않는 인적 없는 구불구불한 도로에서 당신의 자동차 타이어가 터졌습니다. 당신은 히치하이킹을 하기로 결정합니다. 녹슨 픽업트럭이 우르릉거리며 당신 옆에 멈춰 섰습니다. 챙이 넓은 모자를 쓰고 영혼 없는 눈을 한 남자가 조수석 문을 열며 "내 차 탈래?"라고 묻습니다.',
+        choice1: '타겠습니다. 도와주셔서 감사합니다!',
+        choice2: '먼저 그 사람이 살인자인지 물어본다.'),
     Story(
-        storyTitle: 'He nods slowly, unphased by the question.',
-        choice1: 'At least he\'s honest. I\'ll climb in.',
-        choice2: 'Wait, I know how to change a tire.'),
-    Story(
-        storyTitle:
-            'As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.',
-        choice1: 'I love Elton John! Hand him the cassette tape.',
-        choice2: 'It\'s him or me! You take the knife and stab him.'),
+        storyTitle: '그는 질문에도 흔들리지 않고 천천히 고개를 끄덕였다.',
+        choice1: '적어도 그 사람은 정직하다. 차를 타러 간다.',
+        choice2: '잠깐만요, 저는 타이어 교체하는 방법을 알고 있어요.'),
     Story(
         storyTitle:
-            'What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?',
-        choice1: 'Restart',
+            '운전을 시작하자 낯선 사람이 자신과 어머니의 관계에 대해 이야기하기 시작합니다. 그는 점점 더 화를 냅니다. 그는 글로브박스를 열어달라고 요청합니다. 그 안에는 피 묻은 칼, 잘린 손가락 두 개, 엘튼 존의 카세트 테이프가 있습니다. 그는 글러브 박스에 손을 뻗습니다.',
+        choice1: '나는 엘튼 존이 좋아! 그에게 카세트 테이프를 건네준다.',
+        choice2: '그 사람 아니면 나야! 당신은 칼을 들고 그를 찌른다.'),
+    Story(
+        storyTitle:
+            '갑자기 도망치다니! 대부분의 성인 연령층에서 교통사고가 사망의 두 번째 원인이라는 사실을 알고 계셨습니까?',
+        choice1: '처음으로',
         choice2: ''),
     Story(
         storyTitle:
-            'As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.',
-        choice1: 'Restart',
+            '가드레일을 부수고 아래의 날카로운 바위를 향해 돌진하며, 당신은 당신이 타고 있는 차를 운전하는 누군가를 찌르는 것이 얼마나 어리석은 일인지 생각해 봅니다.',
+        choice1: '처음으로',
         choice2: ''),
     Story(
         storyTitle:
-            'You bond with the murderer while crooning verses of "Can you feel the love tonight". He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: "Try the pier".',
-        choice1: 'Restart',
+            '당신은 "오늘 밤 사랑을 느낄 수 있나요"라는 구절을 부르며 살인자와 결속을 맺습니다. 그는 당신을 다음 마을에 내려줍니다. 당신이 가기 전에 그는 시체를 버릴 수 있는 좋은 장소를 아느냐고 묻습니다. 당신은 "부두에 가보세요"라고 답합니다.',
+        choice1: '처음으로',
         choice2: '')
   ];
 
